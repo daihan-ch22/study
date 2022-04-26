@@ -1,4 +1,4 @@
 
-> archive for personal study resources
+> study stuffs 
 
  
