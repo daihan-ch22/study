@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<header>flexbox practice</header>
+<br><br>
+
+
+<style>
+    #container {
+
+        border: 1pt solid red;
+        display: flex;
+
+        margin: 10pt;
+        padding: 10pt;
+        width: 85%;
+        height: 80vh;
+    }
+    #left_side {
+
+
+        background-color: yellowgreen;
+        border: 2px solid red;
+        margin: 10px;
+        flex: 1 1 200;
+        align-items: stretch;
+
+
+    }
+    #middle_area {
+
+        background-color: lightcoral;
+
+        border: 2px solid red;
+        margin: 10px;
+        flex: 3 1 auto;
+        align-items: stretch;
+    }
+    #right_area {
+
+        background-color: paleturquoise;
+
+        border: 2px solid red;
+        margin: 10px;
+        flex: 10 1 auto;
+        align-items: stretch;
+    }
+    .icons {
+        border: 1px solid blue;
+        background-color: wheat;
+        margin: 10px;
+        width: 7vw;
+        height: 7vh;
+    }
+    .area1 {
+        border: 1px dotted blue;
+        margin: 10px;
+        
+        height: 30%;
+    }
+    .area2 {
+        border: 1px dotted blue;
+        margin: 10px;
+        
+        height: 30%;
+    }
+    .area3 {
+        border: 1px dotted blue;
+        margin: 10px;
+        
+        height: 15%;
+    }
+    .area4 {
+        border: 1px dotted blue;
+        margin: 10px;
+        height: 55vh;
+    }
+    .area5 {
+        border: 1px dotted blue;
+        margin: 10px;
+        height: 15vh;
+    }
+
+</style>
+
+<body>
+    <div id="container">
+        <div id="left_side">
+            <div class="icons">Icon1</div>
+            <div class="icons">Icon2</div>
+            <div class="icons">Icon3</div>
+        </div>
+
+        <div id="middle_area">
+            <div class="area1">Area1</div>
+            <div class="area2">Area2</div>
+            <div class="area3">Area3</div>
+        </div>
+
+        <div id="right_area">
+            <div class="area4">Area4</div>
+            <div class="area5">Area5</div>
+        </div>
+    </div>
+</body>
+</html>
