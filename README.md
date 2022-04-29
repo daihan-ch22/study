@@ -1,4 +1,4 @@
 
-> study stuffs 
+> study <
 
  
