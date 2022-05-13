@@ -5,11 +5,11 @@ import java.util.function.LongUnaryOperator;
 public class instanceof_practice {
     public static void main(String[] args) {
         Liquid liq = new Liquid();
-        Liquid liq1 = new Water();
+
 
 
         System.out.println(liq instanceof Pepsi);  //false
-        System.out.println(liq1 instanceof Water);  //false
+        System.out.println(liq instanceof Water);  //false -> risky 하기 때문 -> 없는 기능을 하위 클래스 로 참조하려고 하니까
         System.out.println(liq instanceof Object); //true
 
         Liquid pep = new Pepsi();
