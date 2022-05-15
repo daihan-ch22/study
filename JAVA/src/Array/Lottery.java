@@ -34,7 +34,7 @@ public class Lottery {
             System.out.printf("%d ", balls[i]);
             if (i == 5)
             {
-                System.out.printf("\nBonus ball: %d", bonus);
+                System.out.printf("\nBonus ball: %d\n", bonus);
             }
         }
 
