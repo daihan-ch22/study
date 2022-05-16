@@ -1,8 +1,4 @@
 package OOP.kiosk_program;
-
-
-
-
 public class Kiosk_Runfile {
     /**
      * @main() 메서드 동작
@@ -12,7 +8,10 @@ public class Kiosk_Runfile {
         //TODO:
         Kiosk_Program program = new Kiosk_Program();
         program.input_print();
-       program.output_print( program.cost(program.count()));
+        int number = program.count();
+        program.cost(number);
+
+
     }
 }
 
