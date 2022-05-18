@@ -1,2 +1,1 @@
-studying stuffs 
- 
+공부나 연습하고 남은 부산물 파일 저장 
