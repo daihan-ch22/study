@@ -1,3 +1,5 @@
+package Section1;
+
 import java.util.*;
 public class ElectricityBill {
   public static void main(String[] args) {

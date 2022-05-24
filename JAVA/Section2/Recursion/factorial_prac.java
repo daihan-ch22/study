@@ -1,4 +1,4 @@
-package Section2.Recursion;
+package study.JAVA.src.Section2.Recursion;
 public class factorial_prac {
     public static void main(String[] args) {
         Factorial factorial = new Factorial();
