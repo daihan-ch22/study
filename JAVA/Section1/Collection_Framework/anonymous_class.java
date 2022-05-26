@@ -1,4 +1,3 @@
-package Collection_Framework;
 
 interface FruitBox { //인터페이스 생성
     String fruit1 = "Podo";
