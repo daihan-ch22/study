@@ -1,6 +1,4 @@
-package JAVA.Section2.Recursion.Stack_n_Queue;
-
-import java.util.ArrayList;
+import java.util.*;
 
 public class stack_prac {
     public static void main(String[] args) {
