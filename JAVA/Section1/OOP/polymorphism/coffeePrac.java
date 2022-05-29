@@ -1,4 +1,4 @@
-package OOP.polymorphism;
+package polymorphism;
 public class coffeePrac {
     public static void main(String[] args) {
         Customer customer = new Customer();

@@ -1,5 +1,3 @@
-package Array;
-
 //로또 번호 생성기
 public class Lottery {
     public static void main(String[] args) {
