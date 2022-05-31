@@ -12,7 +12,7 @@ MyAnnotation { }	// MyAnnotation을 정의
 @MyAnnotation	// 적용대상 TYPE
 
 
-class Main {
+class Main111 {
     @MyAnnotation	// 적용대상 FIELD
     int i;
 }
