@@ -4,8 +4,7 @@ import java.util.Arrays;
 
 public class recursion_basic_prac {
     public static void main(String[] args) {
-        MakeRecursionMethod recursionMethod = new MakeRecursionMethod() {
-        };
+        MakeRecursionMethod recursionMethod = new MakeRecursionMethod();
         int[] arr = {1, 2, 3, 4, 5};
         System.out.println(recursionMethod.arrSum(arr));
     }

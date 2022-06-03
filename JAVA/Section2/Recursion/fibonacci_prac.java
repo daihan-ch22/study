@@ -1,4 +1,4 @@
-package JAVA.Section2.Recursion;
+
 class Fibonacci_prac {
     public int fibonacci(int num){
         //TODO..
