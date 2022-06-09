@@ -1,11 +1,11 @@
 public class dailycode6 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution2 solution = new Solution2();
         System.out.println(solution.letterCapitalize("abc cdd"));
     }
 }
 
-class Solution {
+class Solution2 {
     public String letterCapitalize(String str) {
         // TODO:
         if (str.length() == 0) return str;
