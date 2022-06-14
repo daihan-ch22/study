@@ -1,4 +1,3 @@
-package OOP;
 
 public class Method_Overriding_Practice {
     public static void main(String[] args) {

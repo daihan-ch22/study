@@ -1,4 +1,3 @@
-package OOP;
 
 public class static_instance_variables {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OOP.Constructor;
+package Constructor;
 
 public class Constructor_practice_1 {
     public static void main(String[] args) {

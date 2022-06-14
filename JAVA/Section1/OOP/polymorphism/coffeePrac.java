@@ -1,7 +1,8 @@
 package polymorphism;
+
 public class coffeePrac {
     public static void main(String[] args) {
-        Customer customer = new Customer();
+        Customer1 customer = new Customer1();
         customer.buyCoffee(new Americano());
         System.out.println("Your balance is:" + customer.money);
         customer.buyCoffee(new CaffeLatte());
@@ -31,7 +32,7 @@ class CaffeLatte extends Coffee{
     }
     public String toString() { return "CaffeLatte 5000";}
 }
-class Customer {
+class Customer1 {
     int money = 50000;
     void buyCoffee(Coffee coffee) { //매개변수의 다형성
         if (money < coffee.price) {

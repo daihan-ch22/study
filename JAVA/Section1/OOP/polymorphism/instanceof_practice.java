@@ -1,4 +1,4 @@
-package OOP.polymorphism;
+package polymorphism;
 
 import java.util.function.LongUnaryOperator;
 
